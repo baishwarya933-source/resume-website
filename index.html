@@ -4,17 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume</title>
+
+  <!-- CSS File -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- JavaScript Fade-in Effect -->
   <script>
-    // Simple fade-in effect for page load
     document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.add("loaded");
     });
   </script>
 </head>
+
 <body>
   <header>
-    <h1>Name</h1>
+    <h1>Deeksha Hegde</h1>
     <p>Web Developer | Student | Tech Enthusiast</p>
     <nav>
       <a href="index.html">Home</a>
@@ -22,12 +29,12 @@
     </nav>
   </header>
 
-  <section id="profile">
+  <section>
     <h2>Career Objective</h2>
     <p>To work in a dynamic environment that allows continuous learning and growth, while contributing effectively to team success.</p>
   </section>
 
-  <section id="education">
+  <section>
     <h2>Education</h2>
     <ul>
       <li><b>BCA</b> – XYZ College (Mangalore University)</li>
@@ -36,7 +43,7 @@
     </ul>
   </section>
 
-  <section id="skills">
+  <section>
     <h2>Technical Skills</h2>
     <ul>
       <li>HTML / CSS / JavaScript</li>
@@ -45,8 +52,21 @@
     </ul>
   </section>
 
+  <!-- jQuery Button Section -->
+  <section style="text-align:center;">
+    <button id="helloBtn" class="btn">Click Me</button>
+  </section>
+
   <footer>
     <p>© 2025 Deeksha Hegde</p>
   </footer>
+
+  <!-- jQuery Script -->
+  <script>
+    $("#helloBtn").click(function() {
+      alert("Welcome to my Resume Website!");
+    });
+  </script>
+
 </body>
 </html>
