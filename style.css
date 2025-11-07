@@ -12,8 +12,8 @@ header {
   color: #fff;
   text-align: center;
   padding: 20px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 nav a {
   color: #fff;
@@ -21,7 +21,9 @@ nav a {
   margin: 0 10px;
   font-weight: bold;
 }
-nav a:hover { text-decoration: underline; }
+nav a:hover {
+  text-decoration: underline;
+}
 
 section {
   background: #fff;
@@ -31,16 +33,33 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 10px;
 }
-h2 { color: #0078d7; }
+
+h2 {
+  color: #0078d7;
+}
 
 footer {
   text-align: center;
   padding: 10px;
   background-color: #0078d7;
   color: white;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+
 table td {
   padding: 8px 15px;
+}
+
+.btn {
+  background-color: #0078d7;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #005fa3;
 }
